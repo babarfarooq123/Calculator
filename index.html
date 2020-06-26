@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="main_inner">
+            <div>
+                <input type="text" id="textView" class="sizee_view">
+            </div>
+            <div>
+                <button class="sizee" onclick="clickBtn('1');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#BDDBFB';">1</button>
+                <button class="sizee" onclick="clickBtn('2');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#BDDBFB';">2</button>
+                <button class="sizee_color" onclick="clearr();" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#64C09C';">AC</button>
+            </div>
+            <div>
+                <button class="sizee" onclick="clickBtn('3');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#BDDBFB';">3</button>
+                <button class="sizee" onclick="clickBtn('4');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#BDDBFB';">4</button>
+                <button class="sizee_color" onclick="clickBtn('/');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#64C09C';">/</button>
+            </div>
+            <div>
+                <button class="sizee" onclick="clickBtn('5');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#BDDBFB';">5</button>
+                <button class="sizee" onclick="clickBtn('6');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#BDDBFB';">6</button>
+                <button class="sizee_color" onclick="clickBtn('*');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#64C09C';">*</button>
+            </div>
+            <div>
+                <button class="sizee" onclick="clickBtn('7');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#BDDBFB';">7</button>
+                <button class="sizee" onclick="clickBtn('8');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#BDDBFB';">8</button>
+                <button class="sizee_color" onclick="clickBtn('-');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#64C09C';">-</button>
+            </div>
+            <div>
+                <button class="sizee" onclick="clickBtn('9');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#BDDBFB';">9</button>
+                <button class="sizee" onclick="clickBtn('0');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#BDDBFB';">0</button>
+                <button class="sizee_color" onclick="clickBtn('+');" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#64C09C';">+</button>
+            </div>
+            <div>
+                <button class="sizee_equal" onclick="result();" onmousedown="this.style.backgroundColor = 'white';" onmouseup="this.style.backgroundColor = '#64C09C';">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
